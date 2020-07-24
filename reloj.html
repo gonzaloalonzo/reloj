@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj</title>
+    
+    <style>
+        body{
+            width: 600px;
+            margin: 0 auto ;
+        }
+        #reloj{
+            width: 350px;
+            margin:0 auto;
+        }
+        input{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="reloj">
+        <form name="reloj" onsubmit="">
+            <p> hoy es: <input type="text" name="fecha" id="fecha" size="12" value="" />
+                y la hora es
+                <input type="text" name="hora" id="hora" size="12"value=""/>
+            </p>
+        </form>
+    </div>
+    <script src="./reloj.js"></script>
+</body>
+</html>
